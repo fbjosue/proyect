@@ -1,0 +1,42 @@
+.navbar{
+    width:100%;
+    height: 50px;
+    background:red;
+    padding:auto;
+}
+.carrusel{
+    width:100%;
+    height:350px;
+    background:yellow;
+    padding: auto;
+}
+.doble{
+    width:100%;
+    height:300px;
+    padding: auto;
+}
+.seccion1 {
+    float:left;
+    width:50%;
+    height:190px;
+    background: black;
+  }
+  
+  .seccion2 {
+    float:left;
+    width:50%;
+    height:190px;
+    background: red;
+  }
+
+.seccion3{
+    width:100%;
+    height:190px;
+    background:burlywood;
+}
+.footer{
+    width:100% ;
+    padding:auto;
+    height: 50px;
+    background:teal;
+}
