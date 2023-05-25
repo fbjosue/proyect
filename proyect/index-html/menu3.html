@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="menu..css">
+    <link rel="stylesheet" href="barra.css"
+    <title>Menu</title>
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <div class="container">
+            <input type="checkbox" id="drop-down-cbox" />
+            <label for="drop-down-cbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <h1 class="site-logo"></h1>
+            <ul class="main-nav estilo-nav">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li>
+                    <span>¿Quienes somos?</span>
+                    <ul>
+                        <li><a href="#">Mision</a></li>
+                        <li><a href="#">Vsision</a></li>
+                        <li><a href="#">Politica</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--terminar navbar-->
+    <!--inicia barra de contacto-->
+    <div class="TOTAL">
+        <div class="barra">
+            <div class="parte1">
+                <ul>
+                    <li><a href="tel:55555555555">telefono:55-55-55-55-55|</a></li>
+                        <li><a href="https://twitter.com" target="_blank">twitter:  |</a></li>
+                        <li><a href="https://Facebock.com" target="_blank">Facebock  |</a></li>
+                        <li><a href="https://www.instagram.com" target="_blank">instagram:  |</a></li>
+                </ul>
+                </div>
+                <div class="parte2">
+                    <form action="" method="post">
+                        <input type="text" placeholder="buscar" class="cajabuscar" id="buacar">
+                        <button onclick="buscar();" class="btnbuscar">buscar</button>
+                     </form>
+                    </div>
+                 </div>
+             </div>
+             <!--terminar la barra de contacto-->
+             <!--inicia el parallax-->
+             <div class="main">
+                <section class="content">
+                    <div class="parallax img-uno" id="m">
+                        <div class="texto-interior">
+                            <h2> Diseño y desarrollo web.</h2>
+                            <p> Damos vida a tus ideas de la web</p>
+                        </div>
+                    </div>
+                    <section>
+                        <!--parallax-->
+                        <script>
+                            function buscar(){
+                                // varcajabuscar = document.getElementById("buscar").valu
+                                var cajabuscar =prompt ("¿Que deseas buscar?");
+                                alert("No colocaste nada en el buscador");
+
+                                elssssse 
+
+                                alert ("Tu criterio de busqueda es :  "+cajabuscar);
+                            }
+
+
+                        </script>
+                    </section>
+                    <head>
+                        <title>Verificación de Edad</title>
+                    </head>
+                    
+                    <body>
+                        <h1>Verificación de Edad</h1>
+                            <button type="submit">Verificar</button>
+                        </form>
+                    
+                        <p id="resultado"></p>
+                    
+                        <script>
+                            function verificarEdad() {
+                                event.preventDefault(); // Evita que el formulario se envíe y la página se recargue
+                    
+                                var edadInput = document.getElementById("edadInput");
+                                var edad = parseInt(edadInput.value);
+                    
+                                var resultado = document.getElementById("resultado");
+                    
+                                if (edad >= 18) {
+                                    resultado.textContent = "Eres mayor de edad";
+                                } else {
+                                    resultado.textContent = "Eres menor de edad";
+                                }
+                    
+                                // Limpiar el campo de entrada
+                                edadInput.value = "";
+                    
+                                return false; // Evita el envío del formulario
+                            }
+                        </script>
+                    
+                    
+                        <meta charset="UTF-8">
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <title>Verificación de Edad</title>
+                    
+                   
+                        </script>
+            </body>
+
+</html>
